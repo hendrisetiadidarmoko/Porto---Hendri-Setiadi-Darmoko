@@ -105,7 +105,7 @@ function About() {
                     </div>
                     
                 </div>
-                <div className="col-6 col-sm-12 col-md-6 " >
+                <div className="col-12 col-sm-12 col-md-6 " >
                     <div className="w-100 border-skill rounded-4 p-4 my-3">
                         <Skill/>
                     </div>

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { NavLink } from 'react-router-dom';
 function SocialMedia() {
     return (
         <div className='d-flex gap-2 mt-3 w-75'>
@@ -34,7 +34,7 @@ function DescHome(){
                 <h2 className='fs-1 fw-bold '><span className='font-primary'>HENDRI SETIADI DARMOKO</span>,</h2>
                 <h2 className='fs-4 fw-bold '>Web Developer</h2>
                 <SocialMedia/>
-                <a href="/about" className='btn btn-custom mt-3 rounded-4 fw-semibold mt-4'>Read More</a>
+                <NavLink className="btn btn-custom mt-3 rounded-4 fw-semibold mt-4" to="/about">Read More</NavLink>
             </div>
         </div>
     )

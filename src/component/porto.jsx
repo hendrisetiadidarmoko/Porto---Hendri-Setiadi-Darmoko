@@ -4,6 +4,7 @@ import photoProf from "../assets/foto-2.png";
 import ecoprint from "../assets/ecoprint.png";
 import farms from "../assets/farms.png";
 import oleh_banyumas from "../assets/Oleh-oleh_Banyumas.png";
+import koperasi from "../assets/koperasi.png";
 import image from "../assets/image.png";
 
 function Porto() {
@@ -280,7 +281,7 @@ function Porto() {
           </div>
           <div className="col-md-6 col-xl-4 mb-4">
             <div className="card border-3 rounded-4 card-porto h-100 ">
-              <img src={image} className="card-img-top" />
+              <img src={koperasi} className="card-img-top" />
               <div className="card-body d-flex align-content-between flex-wrap w-100">
                 <div className="w-100">
                   <button
