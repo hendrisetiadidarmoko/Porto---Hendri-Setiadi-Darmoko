@@ -1,5 +1,5 @@
 import photoMe from "../assets/hendri2.jpg";
-import curriculumVitae from "../assets/cv.png";
+import curriculumVitae from "../assets/CV.png";
 
 function DescAbout() {
   return (
