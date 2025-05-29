@@ -1,5 +1,5 @@
 import photoMe from "../assets/hendri2.jpg";
-import CV from "../assets/cv.png";
+import curriculumVitae from "../assets/cv.png";
 
 function DescAbout() {
   return (
@@ -26,7 +26,7 @@ function DescAbout() {
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div className="modal-body text-center">
-                                <img src={CV} alt="CV" className="img-fluid" />
+                                <img src={curriculumVitae} alt="CV" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -105,6 +105,11 @@ function About() {
                 <div className="col-6 col-sm-12 col-md-6 " data-aos='fade-left'>
                     <div className="w-100 border-skill rounded-4 p-4 my-3">
                         <Skill/>
+                    </div>
+                </div>
+                <div className="col-6 col-sm-12 col-md-6 " data-aos='fade-left'>
+                    <div className="w-100 border-skill rounded-4 p-4 my-3">
+                        <Certificate/>
                     </div>
                 </div>
             </div>
