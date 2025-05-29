@@ -12,7 +12,7 @@ function Porto() {
       <h1 className="fs-1 fw-bolder text-center">
         KOLEKSI <span className="font-primary">PORTOFOLIO</span>
       </h1>
-      <div className="mt-4" data-aos='zoom-in'>
+      <div className="mt-4" >
         <div className="row">
           <div className="col-md-6 col-xl-4 mb-4">
             <div className="card border-3 rounded-4 card-porto h-100 ">
@@ -204,7 +204,7 @@ function Porto() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Github
+                        Gitlab
                       </a>
                     </div>
                   </div>

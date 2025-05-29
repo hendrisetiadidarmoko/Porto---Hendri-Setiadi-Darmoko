@@ -20,12 +20,12 @@ function DescAbout() {
                 </button>
                 <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
-                        <div className="modal-content">
+                        <div className="modal-content " >
                             <div className="modal-header">
                                 <h1 className="modal-title fs-5" id="exampleModalLabel">CV</h1>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div className="modal-body text-center">
+                            <div className="modal-body text-center" data-aos="none">
                                 <img src={curriculumVitae} alt="CV" className="img-fluid" />
                             </div>
                         </div>
@@ -41,10 +41,13 @@ function Certificate(){
         <div className="row">
             <div className="col-12">
                 <div className="row mb-3">
-                    <div className="col-6 fw-bold">Sertifikasi</div>
-                    <div className="col-6">Junior Web Developer <span>Oktober 2024-2027</span></div>
-                    <p>Badan Nasional Sertifikasi Profesi (BNSP)</p>
-                    <p>Kompetensi : Pengembangan Perangkat Lunak dan Pemprograman</p>
+                    <div className="col-3 fw-bold">Sertifikasi</div>
+                    <div className="col-9 text-end">Junior Web Developer <span>Oktober 2024-2027</span></div>
+                    <div className="mt-2">
+                        <p className="mb-0">Badan Nasional Sertifikasi Profesi (BNSP)</p>
+                        <p>Kompetensi : Pengembangan Perangkat Lunak dan Pemprograman</p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -95,19 +98,17 @@ function About() {
                 TENTANG <span className="font-primary">SAYA</span>
             </h1>
             <div className="row">
-                <div className="col-12 col-sm-12 col-md-6" data-aos='fade-right'>
+                <div className="col-12 col-sm-12 col-md-6"  >
                     <img src={photoMe} alt="Foto Hendri Setiadi " className="w-100 rounded-4 mt-3"/>
                     <div className="border rounded-4 p-4 my-3">
                         <DescAbout/>
                     </div>
                     
                 </div>
-                <div className="col-6 col-sm-12 col-md-6 " data-aos='fade-left'>
+                <div className="col-6 col-sm-12 col-md-6 " >
                     <div className="w-100 border-skill rounded-4 p-4 my-3">
                         <Skill/>
                     </div>
-                </div>
-                <div className="col-6 col-sm-12 col-md-6 " data-aos='fade-left'>
                     <div className="w-100 border-skill rounded-4 p-4 my-3">
                         <Certificate/>
                     </div>
@@ -116,5 +117,6 @@ function About() {
         </div>
     );
 }
+
 
 export default About;

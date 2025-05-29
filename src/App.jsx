@@ -14,6 +14,7 @@ function App() {
       once: true,     // animasi hanya terjadi sekali
     });
   }, []);
+  
   return (
 
     
