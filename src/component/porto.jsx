@@ -8,11 +8,11 @@ import image from "../assets/image.png";
 
 function Porto() {
   return (
-    <div className="container my-5">
+    <div className="container my-5" >
       <h1 className="fs-1 fw-bolder text-center">
         KOLEKSI <span className="font-primary">PORTOFOLIO</span>
       </h1>
-      <div className="mt-4">
+      <div className="mt-4" data-aos='zoom-in'>
         <div className="row">
           <div className="col-md-6 col-xl-4 mb-4">
             <div className="card border-3 rounded-4 card-porto h-100 ">

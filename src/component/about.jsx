@@ -95,14 +95,14 @@ function About() {
                 TENTANG <span className="font-primary">SAYA</span>
             </h1>
             <div className="row">
-                <div className="col-12 col-sm-12 col-md-6">
+                <div className="col-12 col-sm-12 col-md-6" data-aos='fade-right'>
                     <img src={photoMe} alt="Foto Hendri Setiadi " className="w-100 rounded-4 mt-3"/>
                     <div className="border rounded-4 p-4 my-3">
                         <DescAbout/>
                     </div>
                     
                 </div>
-                <div className="col-6 col-sm-12 col-md-6 ">
+                <div className="col-6 col-sm-12 col-md-6 " data-aos='fade-left'>
                     <div className="w-100 border-skill rounded-4 p-4 my-3">
                         <Skill/>
                     </div>

@@ -11,13 +11,13 @@ function PhotoProfile(){
 function Home(){
     return (
         <div className='row'>
-            <div className='col-6'>
+            <div className='col-6' data-aos='fade-right'>
                 <div className='text-center'>
                     <PhotoProfile/>
 
                 </div>
             </div>
-            <div className='col-6'>
+            <div className='col-6' data-aos='fade-left'>
                 <DescHome/>
             </div>
         </div>

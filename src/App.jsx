@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import AOS from 'aos';
 import axios from 'axios';
 import Home from './component/home'
 import About from './component/about'
@@ -7,8 +8,15 @@ import Porto from './component/porto'
 import Navbar from './component/navbar'
 import { Route, Routes } from 'react-router-dom';
 function App() {
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // durasi animasi (ms)
+      once: true,     // animasi hanya terjadi sekali
+    });
+  }, []);
   return (
+
+    
     <div className='container  '>
       <div className='d-flex justify-content-center align-items-center min-vh-100'>
         <Routes>
